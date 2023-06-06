@@ -1,0 +1,25 @@
+  501  git init
+  502  git branch -M main
+  503  git remote add origin https://github.com/jlinaresmedalla/20230605-JuanLinares.git
+  504  touch comandos.txt main.js index.html
+  505  git status
+  506  git add .
+  507  git commit -m "commit 01 de JuanLinares"
+  508  git push -u origin main
+  509  git checkout -b feature01
+  510  mkdir Terminal Hardware
+  511  touch Terminal/resumen.txt Hardware/resumen.txt
+  512  git status
+  513  git add .
+  514  git commit -m "commit 02 de JuanLinares"
+  515  git push origin feature01
+  516  git checkout -b feature02
+  517  git status
+  518  git add .
+  519  git commit -m "commit 03 de JuanLinares"
+  520  git push origin feature02
+  521  git checkout main
+  522  git status
+  523  ls
+  524  git status
+  525  history
