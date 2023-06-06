@@ -1,0 +1,5 @@
+- mkdir
+- ls 
+- rm
+- mv
+- touch 
